@@ -192,11 +192,11 @@ ros2 launch rm_65_rrt_console rrt_console.launch.py
 
 ## 效果展示
 
-### Gazebo 仿真环境
+### Gazebo 仿真
+```bash
+ros2 launch rm_gazebo gazebo_65_demo.launch.py
+```
 
-![Gazebo 仿真](rm_gazebo/doc/rm_gazebo1.png)
-
-![运动规划](rm_gazebo/doc/rm_gazebo2.png)
 
 ### 三次多项式仿真结果
 
@@ -211,6 +211,14 @@ ros2 launch rm_65_rrt_console rrt_console.launch.py
 ![关节连续性验证3](验证关节连续3.png)
 
 ![关节连续性验证4](验证关节连续4.png)
+
+![线性插值速度](linear_interpolation_velocity_curve.png)
+
+![线性插值加速度](linear_interpolation_acceleration_curve.png)
+
+![三次多项式插值速度](cubic_interpolation_velocity_curve.png)
+
+![三次多项式性插值速度](cubic_interpolation_acceleration_curve.png)
 
 ## 仅可视化（无仿真）
 
